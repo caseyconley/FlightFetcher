@@ -167,3 +167,5 @@ dist
 
 # Remove secrets.js since it contains sensitive information
 secrets.js
+processed.json
+data.json
