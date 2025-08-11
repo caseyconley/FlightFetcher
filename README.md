@@ -24,7 +24,7 @@ GET /flights
 Returns stored unprocessed flight data, and includes an additional field `timestamp` representing the server's current local date and time.
 
 ```
-GET processedflights
+GET /processedflights
 ```
 Returns stored processed flight data, and includes an additional field `timestamp` representing the server's current local date and time.
 
