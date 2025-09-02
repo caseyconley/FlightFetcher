@@ -16,7 +16,7 @@
                 "12", //start time hour for window that app is allowed to make requests to Flight API (24-hr)
                 "20", //end time hour for window that app is allowed to make requests to Flight API (24-hr)
                 "750", //altitude threshold (in feet)
-                "210" //request interval (in seconds)
+                "90" //request interval (in seconds)
             ]
         },
         {

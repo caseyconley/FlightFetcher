@@ -7,7 +7,7 @@ const path = require('path');
 const req = require('express/lib/request');
 const app = express();
 //Remember, gitignore is excluding this
-const secret = require('./secret.json');
+const secret = require(`./config/secrets`);
 
 /* ------------------------------------------------*/
 
