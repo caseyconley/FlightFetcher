@@ -18,7 +18,7 @@ const userArgs = process.argv.slice(2);
 console.log(userArgs);
 
 const port = 45699;
-const requestIntervalInSeconds = tryGetNum(userArgs[3], 210);
+const requestIntervalInSeconds = tryGetNum(userArgs[3], 90);
 const maximumFailures = 10;
 const ground_altitude_threshold = tryGetNum(userArgs[2], 750);
 const timeframe_startHour = tryGetNum(userArgs[0], 12); // 12:00 PM
